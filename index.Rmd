@@ -4,6 +4,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
+library(tidycensus)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -26,3 +28,16 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r}
+races_data <- get_acs(geography = "tract",
+                 state = continental,
+                 variables = "B02001_008",
+                 year = 2018,
+                 summary_var = "B02001_001",
+                 geometry = TRUE)
+
+write_rds(races_data, "temp.rds")
+```
+
