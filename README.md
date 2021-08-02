@@ -1,2 +1,2 @@
 # website-test
-This is a website created to test the primer
+This is a website created to test RMarkdown
