@@ -1,8 +1,12 @@
 name: website-test
 navbar:
-  title: Website Test
+  title: "Website Test"
   left:
     - text: "Index"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Pages"
+      menu:
+        - text: "Temp"
+          href: temp.html
+        - text: "About"
+          href: about.html

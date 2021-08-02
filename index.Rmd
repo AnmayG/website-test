@@ -1,7 +1,5 @@
 ---
 title: "Title"
-author: "Anmay Gupta"
-date: "8/2/2021"
 output: html_document
 ---
 
