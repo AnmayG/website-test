@@ -1,2 +1,2 @@
 # website-test
-This is a website created to test RMarkdown
+This is a website created to test RMarkdown.
